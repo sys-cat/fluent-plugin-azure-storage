@@ -1,4 +1,4 @@
-class Fluent::AzureStorageOutput < Fluent::BufferedOutput
+class Fluent::Plugin::AzureStorageOutput < Fluent::BufferedOutput
     Fluent::Plugin.register_output('azurestorage', self)
 
     def initialize

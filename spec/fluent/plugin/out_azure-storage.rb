@@ -1,8 +1,9 @@
 require 'spec_helper'
+require 'Fluent::Plugin::AzureStorageOutput'
 
-describe Fluent::Plugin::Azure::Storage do
+describe Fluent::Plugin::AzureStorage do
   it 'has a version number' do
-    expect(Fluent::Plugin::Azure::Storage::VERSION).not_to be nil
+    expect('test').to eq('test')
   end
 
   it 'does something useful' do
